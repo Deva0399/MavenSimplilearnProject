@@ -39,6 +39,7 @@ public class LoginTest extends Baseclass {
 		login.Login(UsernameVal,PasswordVal);
 		login.ErrorCheck();
 		report.endTest(test);
+		Assert.assertTrue(false);
 			
 	}
 	
